@@ -1,13 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>edu.yuwen.util</groupId>
-  <artifactId>common-util</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <parent>
+    <groupId>edu.yuwen.util</groupId>
+    <artifactId>common-util</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>china</artifactId>
   <packaging>pom</packaging>
-  <description>Commont util library demo, include Apache , Google, etc.</description>
+  <description>Tool librarys open source by chinese company</description>
   <modules>
-      <module>google</module>
-      <module>apache</module>
-      <module>china</module>
+      <module>hutool</module>
   </modules>
 </project>
