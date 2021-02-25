@@ -78,6 +78,7 @@ public class ListenableFutureDemo {
      * 创建ListenableFuture对象
      */
     public static ListenableFuture<Integer> createListenableFuture() throws Exception {
+        // 创建装饰过的线程池
         ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newCachedThreadPool());
         final ListenableFuture<Integer> listenableFuture = executorService.submit(new Callable<Integer>() {
             @Override
