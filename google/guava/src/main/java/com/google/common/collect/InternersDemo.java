@@ -8,6 +8,7 @@ package com.google.common.collect;
 public class InternersDemo {
 
     public static void main(String[] args) {
+        // 如果必须保证每次返回的实例都相同，不被JVM回收，建议使用newStrongInterner
         Interner<String> pool = Interners.newWeakInterner();
         for (int i = 1; i <= 5; i++) {
             String lock = new String("lock");
