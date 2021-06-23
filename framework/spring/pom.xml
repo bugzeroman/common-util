@@ -10,5 +10,6 @@
   <description>Spring框架下的一些好用的工具类</description>
   <modules>
       <module>spring-core</module>
+      <module>spring-beans</module>
   </modules>
 </project>
