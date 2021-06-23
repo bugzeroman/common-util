@@ -9,5 +9,6 @@
       <module>google</module>
       <module>apache</module>
       <module>china</module>
+      <module>framework</module>
   </modules>
 </project>
