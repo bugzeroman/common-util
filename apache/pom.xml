@@ -9,6 +9,6 @@
   <packaging>pom</packaging>
   <description>Apache common utils library</description>
   <modules>
-      <module>validator</module>
+      <module>commons-validator</module>
   </modules>
 </project>
