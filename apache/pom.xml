@@ -10,5 +10,6 @@
   <description>Apache common utils library</description>
   <modules>
       <module>commons-validator</module>
+      <module>commons-lang3</module>
   </modules>
 </project>
